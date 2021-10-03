@@ -1,0 +1,17 @@
+.nav-link {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(201, 97, 97);
+  cursor: pointer;
+  padding: 7px;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: rgb(255, 76, 6);
+}
+.full-container{
+    background-color: antiquewhite;
+    padding: 50px;
+}
