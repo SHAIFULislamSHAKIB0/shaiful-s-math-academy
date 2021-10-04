@@ -21,13 +21,16 @@ const MenuBar = () => {
                                     <li>Home</li>
                                 </Link>
 
+                                <Link to="/blogs" className="nav-link">
+                                    <li>Blogs</li>
+                                </Link>
                                 <Link to="/about" className="nav-link">
                                     <li>About me</li>
                                 </Link>
                                 <Link to="/services" className="nav-link">
                                     <li>Services</li>
                                 </Link>
-                                <Link to="contact" className="nav-link">
+                                <Link to="/contact" className="nav-link">
                                     <li>Contact us</li>
                                 </Link>
                             </ul>
