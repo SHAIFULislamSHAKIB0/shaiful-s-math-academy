@@ -9,7 +9,7 @@ const Header = () => {
             <div className="header-container ">
                 <div className="">
                     <div className="row d-flex align-items-center justify-content-center">
-                        <MenuBar></MenuBar>
+                        {/* <MenuBar></MenuBar> */}
                         <div className="col-md-6">
                             <h1 className="title">
                                 SHAIFUL'S <br /> MATH ACADEMY

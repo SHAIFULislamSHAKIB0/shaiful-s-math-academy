@@ -9,18 +9,38 @@ import About from './components/AboutMe/About';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Home from './components/Home/Home'
 import Header from './components/Header/Header';
+import Blogs from './components/Blogs/Blogs';
+import MyCourses from './components/MyCourses/MyCourses';
+import ContactMe from './components/Contact/ContactMe';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header></Header>
+
+        <MenuBar></MenuBar>
+
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Home></Home>
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/blogs">
+            <Blogs></Blogs>
+          </Route>
+          <Route path="/about">
+            <About></About>
+          </Route>
+          <Route path="/services">
+            <MyCourses></MyCourses>
+          </Route>
+          <Route path="/contact">
+            <ContactMe></ContactMe>
+          </Route>
+          <Route path="*">
+            <PageNotFound></PageNotFound>
           </Route>
 
         </Switch>
