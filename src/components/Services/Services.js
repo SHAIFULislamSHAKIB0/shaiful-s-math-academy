@@ -14,15 +14,19 @@ const Services = () => {
 
     return (
 
-        <div className="container courses " >
-            {
-                myCourses.map(course => (
-                    <div className="my-course">
-                        <Course key={course.id} course={course}></Course>
-                    </div>
+        <div>
+            <h1 className="mt-4">Our Lattest Courses</h1>
+            <div className="container courses " >
 
-                ))
-            }
+                {
+                    myCourses.map(course => (
+                        <div className="my-course">
+                            <Course key={course.id} course={course}></Course>
+                        </div>
+
+                    ))
+                }
+            </div>
         </div>
 
     );

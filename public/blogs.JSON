@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Chilling with Mathematics",
+        "des": "Mathematics is the science that deals with the logic of shape, quantity and arrangement. Math is all around us.",
+        "img": "https://cdn.cdnparenting.com/articles/2020/11/01194956/1588916176.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Having fun with Calculas",
+        "des": "Calculus is the branch of mathematics that is concerned with concepts such as the rate of change, the slope.",
+        "img": "https://miro.medium.com/max/1400/1*L76A5gL6176UbMgn7q4Ybg.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Benifits of classes in Online",
+        "des": "Mathematics is the science that deals with the logic of shape, quantity and arrangement. Math is all around us.",
+        "img": "https://www.stem.org.uk/sites/default/files/blog-images/A%20level%20mathematics.jpg"
+    }
+]
