@@ -1,0 +1,10 @@
+.math-course img{
+width: 500px;
+height: 250px;
+border-radius: 5px;
+border: 2px solid rgb(250, 246, 246);
+}
+.price{
+    color:#20cec5;
+    font-weight: 600;
+}

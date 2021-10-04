@@ -22,7 +22,7 @@ const MenuBar = () => {
                                 </Link>
 
                                 <Link to="/about" className="nav-link">
-                                    <li>About Me</li>
+                                    <li>About me</li>
                                 </Link>
                                 <Link to="/services" className="nav-link">
                                     <li>Services</li>

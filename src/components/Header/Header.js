@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <div className="header-container ">
                 <div className="">
-                    <div className="row d-flex banner align-items-center justify-content-center">
+                    <div className="row d-flex align-items-center justify-content-center">
                         <MenuBar></MenuBar>
                         <div className="col-md-6">
                             <h1 className="title">
@@ -17,7 +17,7 @@ const Header = () => {
                             <p className="my-text text-center mt-3">
                                 From the creators of ABCmouse, My Math Academy is a breakthrough game-based program that adapts to your child's specific learning needs and habits. Perfect for children ages 15-20.
                             </p>
-                            <button className="mt-3 about-btn">About Us</button>
+                            <button className="mt-3 about-btn">About me</button>
                         </div>
                         <div className="col-md-6">
                             <img className="w-75" src={img} alt="" />
