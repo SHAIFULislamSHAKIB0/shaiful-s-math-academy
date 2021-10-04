@@ -10,7 +10,7 @@ const Blogs = () => {
             .then(data => setBlogs(data))
     }, [])
     return (
-        <div>
+        <div className="mt-4">
             <h1>Latest from the Blogs</h1>
             <div className="container my-blogs">
                 {

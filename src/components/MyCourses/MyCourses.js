@@ -10,7 +10,7 @@ const MyCourses = () => {
             .then(data => setMyAllCourses(data))
     }, [])
     return (
-        <div>
+        <div className="mt-4">
             <h2>Our All Services</h2>
             <div className="container  courses">
                 {
