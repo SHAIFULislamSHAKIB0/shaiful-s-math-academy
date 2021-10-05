@@ -15,7 +15,7 @@ const Services = () => {
     return (
 
         <div>
-            <h1 className="mt-4">Our Lattest Courses</h1>
+            <h1 className="mt-4">Our Latest Courses</h1>
             <div className="container courses " >
 
                 {

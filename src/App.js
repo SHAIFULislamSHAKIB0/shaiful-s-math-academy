@@ -54,6 +54,4 @@ function App() {
 
 export default App;
 
-{/* <Services></Services> */ }
-{/* <About></About> */ }
-{/* <PageNotFound></PageNotFound> */ }
+

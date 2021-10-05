@@ -4,6 +4,7 @@ import Blogs from '../../components/Blogs/Blogs'
 import MyCourses from '../../components/MyCourses/MyCourses'
 import Services from '../Services/Services';
 import MenuBar from '../MenuBar/MenuBar';
+import About from '../AboutMe/About';
 
 const Home = () => {
     return (
@@ -11,7 +12,7 @@ const Home = () => {
 
             <Header></Header>
             <Blogs></Blogs>
-
+            <About></About>
             <Services></Services>
 
 
